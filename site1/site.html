@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubu store</title>
+    <link rel="icon" href="logo.png" type="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+  
+
+
+          .gallery-item {
+      
+            position: relative ;
+            margin-bottom: 20px;
+          
+        }
+        .gallery-item button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+           
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div >
+        <img src="logo.png" width="50"  class="img-fluid"   alt="Logo">
+            </div>
+        <nav>
+            <ul>
+                <li><a href="#collection"><i class="fas fa-th-large"></i></a></li>
+                <li><a href="#about"><i class="fas fa-user"></i></a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#cart"><i class="fas fa-shopping-cart"></i></a></li>
+
+                <li class="search-container">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section  class="hero">
+        
+        <h1>Explore the Elegance</h1>
+        <p>Discover the latest collection from Bubu store.</p>
+    </section>
+
+    <section id="collection" class="gallery">
+        <h2> Chek our Collection</h2>
+        <div class="gallery-item">
+            <a href="https://feerie.tn/parfums.html">
+                <button>Parfums</button>
+                <img src="https://img.freepik.com/photos-premium/flacon-parfum-fond-feuilles-automne-parfum-luxe_930198-3110.jpg" height="400" width="100"    alt="parfums Image 1">
+            </a>
+        </div>
+        <div  class="gallery-item" >
+            <a href="https://feerie.tn/maquillage.html">
+                <button >  makeup</button>
+                <img src="mac up.jpg" height="400" width="100" alt="Collection Image 2">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="https://feerie.tn/accessoires.html">
+                <button> accessories</button>
+                <img src="https://img.freepik.com/premium-photo/black-white-accessories-flat-lay-with-magnolia-flowers-illustration_1088041-21308.jpg?size=626&ext=jpg&ga=GA1.1.1840352101.1729553971&semt=ais_hybrid" height="400" width="100"    alt="accessoires Image ">
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p id="text-center">Bubu store offers you a wide range of products: perfumes, makeup, care, and accessories.<br>
+
+
+            Bubu store welcomes you to its world dedicated to beauty to discover the latest makeup innovations: foundation, lipstick and mascara.<br>
+            
+            A sensory immersion with eau de parfum and eau de toilette to awaken your desires, let yourself be seduced by Bubu store's Best-sellers and Favorites</p>
+    </section>
+
+    <section  id="contact" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <form id="form" >
+                <div  class="form-group" >
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                <button class="btn btn-primary rounded-pill px-5 py-3">Send</button>
+
+            </form>
+               
+            
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <div class="social-media">
+            <a href="https://www.facebook.com/nomdutilisateur" class="text-white mx-2" aria-label="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a  href="https://www.instagram.com/nomdutilisateur" class="text-white mx-2" aria-label="Instagram" target="_blank">
+                <i class="fab fa-instagram"></i></a>
+            <a  href="https://twitter.com/nomdutilisateur" class="text-white mx-2" aria-label="Twitter" target="_blank">
+                <i class="fab fa-twitter"></i></a>
+        </div>
+        <p>© 2024 Bubu store Inspired Site. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
